@@ -13,7 +13,7 @@ public class Day0307 {
 		a *= b;
 		System.out.println(a);
 		a=10;
-		a*=3+10; // a = b + c
+		a*=3+10; // a = b + c ¿¡¼­ 
 		System.out.println(a);
 	}
 
