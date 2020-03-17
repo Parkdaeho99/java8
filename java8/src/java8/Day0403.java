@@ -16,6 +16,7 @@ public class Day0403 {
 		int temp1 = isr.read(); //꺼내진거빼고 다음꺼를 꺼내옴
 		System.out.println(temp);
 		System.out.println(temp1);
+		/*isr이나 br이나 둘다 같은 버퍼를 참조하는듯?*/
 		System.out.println(br.readLine()); //하지만 버퍼에는 다 꺼내오기가능
 		// scanner랑 달리 문자만 입력받을 수 있음 그래서 밑에서 parseint
 		System.out.println("키보드를 눌러서 문자열을 입력하세요:");
