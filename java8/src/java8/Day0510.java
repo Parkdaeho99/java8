@@ -25,14 +25,11 @@ public class Day0510 {
 		/*m_hand = "a";
 		c_hand = "b";*/
 		System.out.println(m_hand);System.out.println(c_hand);
-		/* m_hand=="a" && c_hand=="c" 이렇기 비교하면,
-		 * m_hand랑 c_hand가 기본자료형이 아니기 때문에
-		 * (String은 기본 자료형이 아니다)
-		 * m_hand랑 c_hand는 각각 값을 바로 가지지 않고,
-		 * 값이 저장된 주소를 가르킨다.
-		 * 그래서 m_hand=="a"는 m_hand에 들어있는 값이랑 "a"의 주소가 같냐?
-		 * 라고 묻는 것임.
-		 * 값과 값을 비교해야 하기 때문에 equals를 써준다.*/
+		/* String은 기본 자료형이 아니기 때문에,
+		 * 값 자체를 가지지 않고, 값을 가진 공간을 참조한다.
+		 * 그러므로 == 연산자로 비교하면 안되고,
+		 * equals를 써서 비교해야 한다.
+		 */
 		if(m_hand.equals("a") && c_hand.equals("a")) {
 			System.out.println("비겼습니다.");
 			System.out.println("컴퓨터:가위, 사람:가위");
