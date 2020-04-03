@@ -26,7 +26,7 @@ public class AnimalEx {
 		Dog dog = new Dog();
 		a2.haul(cat);
 		a2.haul(dog);
-		
+
 		
 	}
 
