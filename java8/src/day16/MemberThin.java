@@ -1,6 +1,6 @@
 package day16;
 
-public class MemberThin {
+public class MemberThin implements Cloneable{
 	public String id;
 	public String name;
 	public String password;
